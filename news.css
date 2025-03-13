@@ -1,0 +1,324 @@
+
+
+.navbar{
+    position: fixed;
+    top: -80px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    z-index: 8;
+    animation: slide-top 3s 1s forwards 1;
+    animation-direction: reverse;
+}
+
+.brand-logo{
+    height: 60px;
+}
+
+.brand-name{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Footer Content Layout */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+}
+
+/* Push logo to the far left */
+.footer-logo {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.footer-logo-img {
+    width: 80px;
+}
+
+/* Center links */
+.footer-links ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #f7c600;
+}
+
+/* Social icons on the right */
+.footer-social {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    gap: 10px;
+}
+
+.footer-social .social-icon {
+    color: #fff;
+    font-size: 20px;
+    transition: opacity 0.3s ease;
+}
+
+.footer-social .social-icon:hover {
+    opacity: 0.7;
+}
+
+/* Footer Bottom Text Styling */
+.footer-bottom {
+    font-size: 12px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+
+/* General Body Styling */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    /* background-color: #111; */
+    /* background: url('img/background.1webp.webp') no-repeat center center/cover; */
+    color: #fff;
+}
+
+
+
+.navbar{
+    position: fixed;
+    top: -80px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    z-index: 8;
+    animation: slide-top 3s 1s forwards 1;
+    animation-direction: reverse;
+}
+
+.brand-logo{
+    height: 60px;
+}
+
+.brand-name{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/* Header Styles */
+.header {
+    background-color: #111;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-logo-img {
+    width: 50px;
+    transition: transform 0.3s ease;
+}
+
+.header-logo-img:hover {
+    transform: scale(1.1);
+}
+
+.header-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.header-nav ul li a:hover {
+    color: #f7c600; /* Lamborghini yellow */
+}
+
+.header-cta .cta-btn {
+    background-color: #f7c600;
+    color: #111;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.header-cta .cta-btn:hover {
+    background-color: #e6b700;
+    transform: scale(1.05);
+}
+.reviews-section, .news-section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.reviews-container, .news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.review {
+    margin: 50px;
+    background: black;
+    padding: 15px;
+    border-radius: 10px;
+    width: 220px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: #f7c600;
+}
+
+.news-item {
+    width: 300px;
+    background:black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: #e6b700;
+}
+
+.news-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input, textarea {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #f7c600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e6b700;
+}
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    background: #111;
+    border-radius: 20px;
+    color: #e6b700;
+    text-align: center;
+    /* margin: 10px; */
+}
+
+.carousel-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+.carousel-btn:hover {
+    background: #e6b700;
+    color: #111;
+}

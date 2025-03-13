@@ -676,3 +676,63 @@ body{
     margin-top: 20px;
     font-size: 12px;
 }
+
+/* 💎 Custom Dropdown Styling */
+.custom-dropdown {
+    width: 300px;
+    position: relative;
+    background: #000;
+    border: 2px solid #f7c600;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    padding: 12px;
+    user-select: none;
+}
+
+/* 🔽 Selected Option Styling */
+.dropdown-selected {
+    background: #000;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+/* 🟡 Hover Effect */
+.custom-dropdown:hover {
+    background: rgba(255, 204, 0, 0.2);
+}
+
+/* 📜 Dropdown Menu List */
+.dropdown-menu {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background: #111;
+    border: 2px solid #f7c600;
+    border-radius: 8px;
+    display: none; /* Initially hidden */
+    z-index: 10;
+}
+
+/* 🌟 Dropdown Items */
+.dropdown-menu li {
+    padding: 10px;
+    list-style: none;
+    transition: background 0.3s ease;
+}
+
+/* 🟠 Hover Effect for Dropdown Items */
+.dropdown-menu li:hover {
+    background: #f7c600;
+    color: #000;
+}
+
+/* 🔽 Show Dropdown on Click */
+.custom-dropdown.active .dropdown-menu {
+    display: block;
+}
+
